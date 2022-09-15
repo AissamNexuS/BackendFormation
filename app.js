@@ -1,3 +1,5 @@
+// to lanch input : nodemon app
+
 const express = require("express");
 const app = express();
 const port = 8001;
