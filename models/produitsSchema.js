@@ -3,11 +3,9 @@ const Schema = mongoose.Schema;
 
 // define the Schema (the structure of the article)
 const produitsSchema = new Schema({
-  title: String,
-  summary: String,
-  prix: String,
-  total: Number,
-  body: String,
+  number1: Number,
+  number2: Number,
+  somme: Number,
 });
 // Create a model based on that schema
 const Produits = mongoose.model("Produits", produitsSchema);
